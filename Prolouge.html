@@ -5,15 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/style.css" />
-    <script src="dialoge.js" defer></script>
-    <script src="girl.js" defer></script>
-    <script src="boy.js" defer></script>
-    <script src="keyboard.js" defer></script>
-    <script src="levels.js" defer></script>
-    <script src="mingame.js" defer></script>
-    <script src="game.js" defer></script>
-    <script src="tittle.js" defer></script>
-    <script src="audio.js" defer></script>
+    <script src="/JS/Page_Prolouge.js" defer></script>
     <title>Save the theatre</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
@@ -27,28 +19,15 @@
                             <div class= "BDtitleBox1">
                                 <img src="/Images_Website/Index_Header.png" id="BDsec" alt="tittle"/>
                             </div>
-                                <div>
-                                    <div class="BD BD-first-row">
-                                        <div>
-                                            <img src="Images_Characters/Index_Girl.png" id="BDImageSize" alt="Hand gripping pages">
-                                        </div>
-                                        <div class="BD-middle-flex-inside-flex">
-                                            <a href="/Reunion.html"> <img id="playButton" src="Images_UI/Index_start.png" rel="playButton"> </a>
-                                        </div>
-                                        <div>
-                                            <img src="Images_Characters/Index_Boy.png" id="BDImageSize2" alt="Young child pointing at user">
-                                        </div>
+                                <div class="gameInterface">
+                                    <canvas id="ProlougueCanvas" width="1000" height ="400"></canvas>
                                 </div>
                             </div>
-                            <div> 
-                                <video id="video1" autoplay src="./Animations/Animation_1_Proccessed.mp4" type="video/mp4">
-                                </video>
+                            <div class="BD-middle-flex-inside-flex">
+                                <a href="/Reunion.html"> <img id="playButton" src="Images_UI/Prolougue_play.png" rel="playButton"> </a>
                             </div>
                             <div>
                                 <audio id="audio1" autoplay src="Music/PlaceHolder.mp3" type="audio/mp3">
-                            </div>
-                            <div class="gameInterface">
-                                <canvas id="ProlougueCanvas" width="500" height ="500"></canvas>
                             </div>
                               <div class="BDcredits">
                                 <p>Created by:</p>
