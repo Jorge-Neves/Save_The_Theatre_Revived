@@ -1,0 +1,135 @@
+/* tags */
+
+/* Global Ids */
+
+/* Global Classes */
+
+.row{
+
+    justify-content: center;
+    align-self: center;
+    margin-bottom:100px;
+}
+
+.gameOver {
+    background-color: rgba(95, 20, 95, 0.596);
+    position: absolute;
+    height: 250px;
+    width: 500px;
+    opacity: 90%;
+    margin-top: 100px;
+    text-align: center;
+}
+
+#myCanvas {
+    margin-top: 1.5%;
+    opacity: 100%;
+    background-image: url("/images/theatreCanvas.png");
+    align-self: center;
+}
+
+
+/* Index */
+
+.
+#BDsec {
+    height: 140px;
+}
+
+.BDtitleBox1 {
+    justify-content: center;
+    align-self: center;
+    padding-top: 50px;
+   /*  margin-left: 400px; */
+}
+
+.BDgame-border {
+    background-image: url(/Images_Website/Index_Background.jpg); 
+    /* background-repeat: no-
+    repeat; */
+    background-size: cover;
+    align-items: center;
+    height: auto;
+    width: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+.BDcredits{
+    text-align: center;
+   /* width: 500px;
+    /*align-self: center;
+    justify-content: center;
+ /*   margin-left: 5%;
+    margin-right: 2%;
+    margin-top: 0%;
+ /*    margin-left: 450px;
+    margin-bottom: 15px;
+    font-size: 10px; */
+}
+
+.BD-last-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.BD-first-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.BD-middle-flex-inside-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+#BDImageSize {
+    width: 500px;
+}
+
+#BDImageSize2 {
+    padding-top: 50px;
+    width: 500px;
+}
+
+/* Prologue */
+
+/* Reunion */
+
+/* Transition1 */
+
+/* Act1 */
+
+/* Interlude1 */
+
+/* Act2 */
+
+/* Interlude2 */
+
+/* Transition2 */
+
+/* Act3 */
+
+/* EndingA */
+
+/* EndingB */
+
+/* EndingC */
+
+/* Credits */
+
+/* */
+
+/* */
+
+
+
+
+
